@@ -1,0 +1,190 @@
+/**
+ * Tango sunrise theme for Moodle 2.0
+ *
+ * @author Jeremy FitzPatrick
+ * @copyright (C) 2011 Jeremy FitzPatrick
+ * @author John Stabinger (Brick theme 2010)
+ * @license http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ */
+
+body {
+    margin: auto 30px;
+    width: auto;
+	background-color:#fff;
+}
+
+#page {
+    /*margin:0 20px;*/
+	padding:0 30px;
+    overflow: hidden;
+    min-width: 660px;
+    clear: both;
+}
+
+#page-header {
+    float: left;
+    width: 100%;
+}
+
+#page-content {
+    clear: both;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+#page-content #region-main-box {
+    float: left;
+    margin-left: 0;
+    position: relative;
+    width: 200%;
+    right: 100%;
+}
+
+#page-content #region-post-box {
+    float: left;
+    width: 100%;
+}
+
+#page-content #region-main-wrap {
+    float: left;
+    width: 50%;
+}
+
+#page-content #region-main {
+    overflow: hidden;
+    position: relative;
+    left: 100%;
+}
+
+#page-content #region-post {
+    float: right;
+    position: relative;
+}
+
+#page-content #region-main .region-content {
+    overflow: hidden;
+    padding:20px;
+	background-color:#fff;
+	
+	border-radius:3px;
+}
+
+#page-content #region-post .region-content {
+    overflow: hidden;
+    padding: 0px 0 20px 10px;
+}
+
+#page-footer {
+    border-top: 1px solid #999999;
+    margin: 20px 30px 0;
+    padding: 1px 0;
+}
+
+
+.has_dock.side-post-only .page-middle #region-main-box #region-post-box #region-main-wrap #region-main {
+    margin-left: 200px;
+}
+
+/** No blocks whatsoever **/
+
+#page-title {
+    font-size:1.5em;
+    margin:0;
+    padding:1em 30px 0;
+}
+
+.content-only #page-content #region-main-box {
+    margin-left: 0px;
+}
+
+.content-only #page-content #region-post-box {
+    margin-left: 0px;
+}
+
+.content-only #page-content #region-main {
+    margin-left: 0px;
+	margin-right:45px;
+}
+
+.content-only #page-content #region-pre {
+    width: 0px;
+}
+
+.content-only #page-content #region-post {
+    width: 0px;
+}
+
+#page-content #region-post-box {
+    margin-left: -270px;
+}
+
+.side-post-only #page-content #region-main-wrap #region-main {
+	padding-left:2px;
+	margin-left:270px;
+	margin-right:0;
+}
+
+#page-content #region-main-wrap  #region-main {
+    /*margin-left: 270px;*/
+	padding:2px;
+	
+	border-radius:6px;
+	background-color:#ddd;
+	border:1px solid #aaa;
+	box-shadow:0 1px 3px rgba(0,0,0,0.2);
+}
+
+.side-post-only.has_dock #page-content #region-main-wrap #region-main{
+	margin-right:40px;
+}
+
+#page-content #region-post,
+.side-post-only.has_dock #page-content #region-post {
+    left: 225px;
+    width: 250px;
+}
+
+.side-post-only #page-content #region-post {
+	left:270px;
+}
+
+#page-course-view-slides #page-content #region-main-wrap  #region-main,
+.path-course-view #page-content #region-main-wrap  #region-main {
+	border-radius:0;
+    background-color:transparent;
+    border:none;
+    box-shadow:none;
+}
+
+.path-course-view #page-content #region-main .region-content {
+	padding:0;
+}
+
+.path-course-view  #page-content .course-content ul.topics li.section          { list-style: none;margin:5px 0 0 0;padding:0; background-color:#FAFAFA; border-color:#AAA; overflow:hidden; }
+.path-course-view  #page-content .course-content ul.topics li.section .content { margin: 0 15px 0 0; padding:10px; }
+.path-course-view  #page-content .course-content ul.topics li.section.current { border-color:#C00; }
+
+.pagelayout-report #page-content #region-main {overflow:auto;}
+.pagelayout-report #page-content #region-main .region-content {overflow:visible;}
+.path-course-view ul#section-outline {
+    list-style:none;
+}
+.path-course-view ul#section-outline li {
+    list-style:none;
+    padding:3px;
+    border:1px solid #999;
+    background-color:#DDD;
+    -moz-border-radius:4px;
+    margin:3px;
+    width:200px;
+    position:absolute;
+    float:left;
+}
+
+.path-course-view ul.topics li.section {
+    position:relative;
+    border:1px solid #CCC;
+    -moz-border-radius: 6px; -webkit-border-radius: 6px; border-radius: 6px;
+}

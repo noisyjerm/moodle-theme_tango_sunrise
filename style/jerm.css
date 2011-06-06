@@ -1,0 +1,38 @@
+/**
+ * Tango sunrise theme for Moodle 2.0
+ *
+ * @author Jeremy FitzPatrick
+ * @copyright (C) 2011 Jeremy FitzPatrick
+ * @author John Stabinger (Brick theme 2010)
+ * @license http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ */
+ 
+ .block_action .minimise {
+	border:none;
+	width:11px;
+	height:13px;
+	padding:0;
+	margin:2px 0 0 3px;
+	vertical-align:top;
+	cursor:pointer;
+	background:url([[pix:theme|r]]) no-repeat left 2px;
+}
+
+.block {
+	clear: right;
+}
+
+.block.minimised {
+	width:40px;
+	float:right;
+}
+
+.block.minimised .title { background-position:right; }
+.block.minimised .content {	display:none; }
+.block.minimised h2 { visibility:hidden; height:22px;  }
+
+.block.minimised .block_action .minimise {
+	background:url([[pix:theme|l]]) no-repeat left 2px;
+}
+
+.block.minimised img { display:none; }

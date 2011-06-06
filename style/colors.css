@@ -1,0 +1,84 @@
+/**
+ * Tango sunrise theme for Moodle 2.0
+ *
+ * @author Jeremy FitzPatrick
+ * @copyright (C) 2011 Jeremy FitzPatrick
+ * @author John Stabinger (Brick theme 2010)
+ * @license http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ */
+ 
+html a,body a, html a:visited,body a:visited, ul.dropdown li, ul.dropdown a:link, ul.dropdown a:visited {
+	color: [[setting:linkcolor]];
+}
+
+html a:hover,body a:hover, ul.dropdown li.hover, ul.dropdown li:hover, ul.dropdown a:hover, ul.dropdown a:active {
+	color: [[setting:linkhover]];
+}
+
+#logo {
+	background: url([[setting:logo]]) no-repeat;
+}
+
+#headerwrap {
+	background: #FFCB44 url([[pix:theme|sunwave]]) repeat-x; 
+}
+
+#nologo a,#nologo, .block .header h2, .yui3-menu-content li a, #navigation li a {
+	color: #5C3500;
+}
+
+
+.block div.header {
+	background-color:#aebec2;
+}
+
+.generalbox h2,h3.sectionname, h2.headingblock,h2.main,h3.main, h2.main a, h3.main a, div.loginpanel h2, div.signuppanel h2, .forumpost .subject {
+	color: [[setting:headingcolor]];
+}
+
+#nologo a, .yui3-menu-content li a, .headingtitle h1, .block .header h2 {
+	/*text-shadow: -1px 1px 1px #333;*/
+}
+
+#dock .controls {
+	background-color: [[setting:linkcolor]];
+}
+
+#dock .dockedtitle.activeitem {
+	background-color: #aebec2;
+}
+
+#dockeditempanel .dockeditempanel_content {
+	border-color: [[setting:maincolor]];
+}
+
+#dockeditempanel .dockeditempanel_hd {
+	background:  #aebec2;
+	
+}
+#dockeditempanel .dockeditempanel_hd h2 {
+	color:#5C3500;
+}
+
+div.custom_menu_submenu li a {
+	color: [[setting:linkcolor]] !important;
+}
+
+#region-main {
+    background-color: #FFFFFF;
+    border: 1px solid #999999;
+    margin-right: 40px;
+    padding: 10px;
+}
+
+.path-course-view #region-main {
+	background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+a.highlight  {
+	background-color:transparent;
+}
+	
