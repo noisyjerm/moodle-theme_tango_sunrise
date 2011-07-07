@@ -1,9 +1,32 @@
 Tango Sunrise :: A theme for Moodle 2. 
 
+This is a work-in-progress theme. Help much appreciated
+
+THEME GOALS
+-----------
+
+1) Be really good looking
+2) Be really useable by
+    - having clear layout
+    - keep auxiliary info to a minimum and out of the way of the main content
+    - include extra features and javascript (ajax) if and where this helps useability (eg log in box)
+3) Be colour neutral (header excluded) to allow for easy re-using
+4) Acknowledge the Moodle heritage by 
+    - using the Moodle orange colour in the header
+    - retain Moodle-esque styling such as discrete blocks with header background
+
+CURRENT FEATURES
+------------------
 Block titles in the dock are replaced with icons taken from the desktop theme Tango.
 Other features include:
  - short header to maximise courseware area
+     - mimics traditional desktop application with (custom) menu along top bar
  - easy to include Google analytics
+     - Not sure if this is worthwhile given it can be included in the additional html settings
+     - but could include more options and tidier reporting?
  - help popup
+     - needs to be more configurable. E.g. Option to be hidden and option to go to link or show popup
  - login popup
- - good looking.
+ - good looking ;-)
+ 
+ --------------------------------
