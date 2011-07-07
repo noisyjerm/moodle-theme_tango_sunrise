@@ -23,10 +23,30 @@ html a:hover,body a:hover, ul.dropdown li.hover, ul.dropdown li:hover, ul.dropdo
 	background: #FFCB44 url([[pix:theme|sunwave]]) repeat-x; 
 }
 
+#custommenu .yui3-menu.custom_menu_submenu .yui3-menu-content {
+    background-color:#AEBEC2;
+	margin-top:14px;
+    border-top-width:0;
+    border-radius:0 0 6px 6px; 	
+}
+
+#custommenu .yui3-menu.custom_menu_submenu .yui3-menu.custom_menu_submenu .yui3-menu-content  {
+	margin-top:0px;
+	border-top-width:1px;
+	border-radius:6px; 
+}
+
+
 #nologo a,#nologo, .block .header h2, .yui3-menu-content li a, #navigation li a {
 	color: #5C3500;
 }
 
+#custommenu .yui3-menu .yui3-menu-label-menuvisible,
+#custommenu .yui3-menu .yui3-menu-label.yui3-menu-label-active,
+#custommenu .yui3-menu .yui3-menuitem.yui3-menuitem-active .yui3-menuitem-content {
+	background-color:#fff;
+	color:#333;
+}
 
 .block div.header {
 	background-color:#aebec2;
@@ -41,7 +61,7 @@ html a:hover,body a:hover, ul.dropdown li.hover, ul.dropdown li:hover, ul.dropdo
 }
 
 #dock .controls {
-	background-color: [[setting:linkcolor]];
+	background-color: #99AABB;
 }
 
 #dock .dockedtitle.activeitem {

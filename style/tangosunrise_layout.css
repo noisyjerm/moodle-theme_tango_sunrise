@@ -15,8 +15,9 @@ body {
 
 #page {
     /*margin:0 20px;*/
+	margin-top:10px;
 	padding:0 30px;
-    overflow: hidden;
+  /*  overflow: hidden;*/
     min-width: 660px;
     clear: both;
 }
@@ -90,9 +91,10 @@ body {
 /** No blocks whatsoever **/
 
 #page-title {
+	background-color:#f9f9f9;
     font-size:1.5em;
     margin:0;
-    padding:1em 30px 0;
+    padding:10px 30px 0;
 }
 
 .content-only #page-content #region-main-box {

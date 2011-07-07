@@ -3,14 +3,14 @@
  *
  * @author Jeremy FitzPatrick
  * @copyright (C) 2011 Jeremy FitzPatrick
- * @author John Stabinger (Brick theme 2010)
  * @license http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
  
-.block div.header h2 {
-	padding-left:27px;
-}
-
+.block div.header h2 { padding-left:27px; }
+/* Default icon */
+.block                         .title,
+.dockeditem              .dockedtitle { background:url([[pix:theme|blocks/applications-other]]) no-repeat 3px top; }
+/* Moodle Core blocks */
 .block_activity_modules        .title,
 .block_activity_modules  .dockedtitle { background:url([[pix:theme|blocks/applications-games]]) no-repeat 3px top; }
 .block_admin_bookmarks         .title, 
@@ -33,7 +33,7 @@
 .block_completionstatus .dockedtitle { background:url([[pix:theme|blocks/start-here]]) no-repeat 3px top; }
 .block_course_list             .title,
 .block_course_list       .dockedtitle { background:url([[pix:theme|blocks/text-x-generic]]) no-repeat 3px top; }
-.block_course_overview         .title,
+/*.block_course_overview         .title,
 .block_course_overview   .dockedtitle { background:url([[pix:theme|blocks/image]]) no-repeat 3px top; }
 .block_course_summary          .title,
 .block_course_summary    .dockedtitle { background:url([[pix:theme|blocks/image]]) no-repeat 3px top; }
@@ -44,7 +44,7 @@
 .block_html                    .title,
 .block_html              .dockedtitle { background:url([[pix:theme|blocks/image]]) no-repeat 3px top; }
 .block_login                   .title,
-.block_login             .dockedtitle { background:url([[pix:theme|blocks/image]]) no-repeat 3px top; }
+.block_login             .dockedtitle { background:url([[pix:theme|blocks/image]]) no-repeat 3px top; } */
 .block_mentees                 .title,
 .block_mentees           .dockedtitle { background:url([[pix:theme|blocks/face-glasses]]) no-repeat 3px top; }
 .block_messages                .title,
@@ -69,23 +69,29 @@
 .block_recent_activity   .dockedtitle { background:url([[pix:theme|blocks/face-monkey]]) no-repeat 3px top; }
 .block_rss_client              .title,
 .block_rss_client        .dockedtitle { background:url([[pix:theme|blocks/network-wireless]]) no-repeat 3px top; }
-.block_search                  .title,
-.block_search            .dockedtitle { background:url([[pix:theme|blocks/image]]) no-repeat 3px top; }
+/*.block_search                  .title,
+.block_search            .dockedtitle { background:url([[pix:theme|blocks/image]]) no-repeat 3px top; } */
 .block_search_forums           .title,
 .block_search_forums     .dockedtitle { background:url([[pix:theme|blocks/system-search]]) no-repeat 3px top; }
 .block_section_links           .title,
 .block_section_links     .dockedtitle { background:url([[pix:theme|blocks/links]]) no-repeat 3px top; }
-.block_selfcompletion          .title,
-.block_selfcompletion    .dockedtitle { background:url([[pix:theme|blocks/image]]) no-repeat 3px top; }
+/*.block_selfcompletion          .title,
+.block_selfcompletion    .dockedtitle { background:url([[pix:theme|blocks/image]]) no-repeat 3px top; } */
 .block_settings                .title,
 .block_settings          .dockedtitle { background:url([[pix:theme|blocks/emblem-system]]) no-repeat 3px top; }
-.block_site_main_menu          .title,
+/* .block_site_main_menu          .title,
 .block_site_main_menu    .dockedtitle { background:url([[pix:theme|blocks/image]]) no-repeat 3px top; }
 .block_social_activities       .title,
 .block_social_activities .dockedtitle { background:url([[pix:theme|blocks/image]]) no-repeat 3px top; }
 .block_tag_flickr              .title, 
 .block_tag_flickr        .dockedtitle { background:url([[pix:theme|blocks/image]]) no-repeat 3px top; }
 .block_tag_youtube             .title,
-.block_tag_youtube       .dockedtitle { background:url([[pix:theme|blocks/image]]) no-repeat 3px top; }
+.block_tag_youtube       .dockedtitle { background:url([[pix:theme|blocks/image]]) no-repeat 3px top; } */
 .block_tags                    .title,
 .block_tags              .dockedtitle { background:url([[pix:theme|blocks/tag]]) no-repeat 3px top; }
+/* Contributed blocks */
+.block_user_contact            .title,
+.block_user_contact            .dockedtitle { background:url([[pix:theme|blocks/envelope]]) no-repeat 3px top; }
+/*.block_messageteacher          .title,
+.block_messageteacher          .dockedtitle { background:url([[pix:theme|blocks/envelope]]) no-repeat 3px top; }
+*/

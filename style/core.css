@@ -177,10 +177,13 @@ blockquote {
 
 
 div.navbar {
+	background-color:#f9f9f9;
+	border-bottom:1px solid #eee;
 	font-size: 0.85em;
 	font-style: italic;
 	font-weight: 200;
 	padding:0 30px 5px;
+	
 }
 
 div.breadcrumb li {
@@ -206,9 +209,10 @@ div.navbar span.arrow.sep {
 }
 
 .navbutton {
+	/*border-bottom: 1px solid #999;*/
 	float: none;
 	width: 100%;
-	padding: 0;
+	padding:0;
 	text-align: right;
 }
 
@@ -386,6 +390,11 @@ span.completionprogress {
 	color: #666666;
 }
 
+.autocompletion img,
+.togglecompletion input {
+	border:1px solid #ccc;
+	border-radius:2px;
+}
 /* Forum 
 --------------------------*/
 
@@ -727,6 +736,10 @@ div.yui3-menu.custom_menu_submenu div.yui3-menu-content div.yui3-menu.custom_men
 
 #custommenu .yui3-menuitem-content {
 	color:#FFF;
+}
+
+.yui3-menu .yui3-menu-content {
+	/*margin-top:25px;*/
 }
 
 #custommenu .yui3-menu-horizontal.javascript-disabled .yui3-menu-content{

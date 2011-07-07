@@ -99,14 +99,6 @@ echo $OUTPUT->doctype() ?>
             		 // send login somewhere else and stitch the fields together b4 redirecting to real login
             		 // make sure this does not interfere with success redirect
             		 $this->content->text .= "\n".'<form class="loginform" id="login" method="post" action="'.get_login_url().'">';
-            		 /*
-            		 $this->content->text .= '<div class="c1 fld institution"><label for="login_dhb">'.get_string('institution').'</label>';
-                     $this->content->text .= '<select name="dhb" id="login_dhb">';
-                     $this->content->text .= '<option value="">Choose..</option>';
-                     $this->content->text .= '<option value="waikatodhb">Waikato District Health Board</option>';
-                     $this->content->text .= '<option value="lakesdhb">Lakes District Health Board</option>';
-            		 $this->content->text .= '</select></div>';
-                     */
 
             $this->content->text .= '<div class="c1 fld username"><label for="login_username">'.get_string('username').'</label>';
             $this->content->text .= '<input type="text" name="username" id="login_username" value="'.s($username).'" /></div>';
@@ -115,8 +107,8 @@ echo $OUTPUT->doctype() ?>
             $this->content->text .= '<input type="password" name="password" id="login_password" value="" /></div>';
 
             $this->content->text .= '<div class="c1 btn"><input type="submit" value="'.get_string('login').'" /></div>';
-
             $this->content->text .= "</form>\n";
+            $this->content->text .= '<p class="left">forgot pasword</p><p>sign me up</span>';
             echo  $this->content->text;
             		echo "</div>";
             	}
